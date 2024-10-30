@@ -7,8 +7,8 @@ import img2 from "../assets/img1.png"
 import Share from './icons/Share'
 const Footer = () => {
   return (
-    <div className='bg-black text-white w-full h-[400px] flex justify-between '>
-       <div className='w-[80%] mx-auto flex justify-between mt-12'>
+    <div className='bg-black text-white w-full min-h-[400px] flex justify-between '>
+       <div className='w-[90%] md:w-[80%] mx-auto flex justify-between mt-12 flex-col md:flex-row'>
        <div>
             <h4 className='text-3xl font-bold'>Shiplee</h4>
         </div>
@@ -60,7 +60,7 @@ const Footer = () => {
             <h4 className='text-2xl font-medium'>NewsLetter</h4>
             <div className='mt-12'>
                 <p>Put Your email to get Update</p>
-               <div className='bg-white text-purple-700 rounded-md mt-4 flex justify-between items-center px-3 py-2'>
+               <div className='bg-white text-purple-700 rounded-md mt-4 flex justify-between items-center px-3 py-2 mb-4 md:mb-0'>
                <input type="email" className=' rounded-md  border-none outline-none' placeholder='Your Email'/>
                <Share/>
                </div>

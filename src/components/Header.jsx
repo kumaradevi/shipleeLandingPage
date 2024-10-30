@@ -7,7 +7,7 @@ const Header = () => {
        
        <div className='flex w-[80%] mx-auto justify-between'>
        <div className='text-3xl font-medium'>Shiplee</div>
-       <ul className='flex gap-5 items-center'>
+       <ul className='md:flex gap-5 items-center hidden '>
             <li>Home</li>
             <li>Products</li>
             <li>Pricing</li>
